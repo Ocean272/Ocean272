@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      {toggle ? lightOff : lightOn}
+      <img src={toggle ? lightOff : lightOn} />
       <button onClick={ toggleFunc}>Toggle</button>
     </div>
   );
